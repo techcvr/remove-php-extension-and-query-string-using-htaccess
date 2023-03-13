@@ -1,6 +1,6 @@
 ```html
 RewriteEngine on
-RewriteRule ^residential-gallery/(.*)?$ gallery.php?type=$1 [L,QSA]
+RewriteRule ^gallery/(.*)?$ gallery.php?type=$1 [L,QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f

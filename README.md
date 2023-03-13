@@ -1,0 +1,1 @@
+# remove-php-extension-and-query-string-using-htaccess
